@@ -1,4 +1,4 @@
-name: Everything is Blmi
+name: EverythingIsBlmi
 version: '${version}'
 main: kr.hightechnyangtoml.everythingisblmi.EverythingIsBlmi
 api-version: '1.20'

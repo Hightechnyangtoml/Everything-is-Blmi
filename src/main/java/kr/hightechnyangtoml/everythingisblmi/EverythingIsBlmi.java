@@ -1,17 +1,18 @@
 package kr.hightechnyangtoml.everythingisblmi;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class EverythingIsBlmi extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        System.out.println("You are Blmi! hehe...");
+        Bukkit.getPluginManager().registerEvents(new Event(), this);
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        System.out.println("You are not Blmi! get out.");
     }
 }
