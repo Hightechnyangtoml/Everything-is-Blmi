@@ -1,0 +1,4 @@
+name: Everything is Blmi
+version: '${version}'
+main: kr.hightechnyangtoml.everythingisblmi.EverythingIsBlmi
+api-version: '1.20'
